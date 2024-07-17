@@ -17,7 +17,7 @@ document.addEventListener('DOMContentLoaded', () => {
       },
       {
         title: 'SMS Spam Classifier',
-        description: 'SMS Spam Classifier.A spam classifier is a machine learning model that categorizes messages or emails as 'spam' or 'not spam' based on their content. It involves using Machine Learning Libraries and Frameworks.',
+        description: 'SMS Spam Classifier.A spam classifier is a machine learning model that categorizes messages or emails as spam or not spam based on their content. It involves using Machine Learning Libraries and Frameworks.',
         link: 'https://github.com/DhivijaMacharla/SMS_SPAM'
       },
       {
