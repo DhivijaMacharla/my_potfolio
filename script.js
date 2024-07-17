@@ -3,6 +3,10 @@ document.addEventListener('DOMContentLoaded', () => {
   document.getElementById('contact-form').addEventListener('submit', validateForm);
 });
 
+function scrollToSection(sectionId) {
+  document.getElementById(sectionId).scrollIntoView({ behavior: 'smooth' });
+}
+
 function loadProjects() {
   const projects = [
     {
