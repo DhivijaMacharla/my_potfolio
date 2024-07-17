@@ -10,16 +10,20 @@ document.addEventListener('DOMContentLoaded', () => {
   function loadProjects() {
     const projects = [
       {
-        title: 'Project 1',
-        description: 'Description of the first project. It involves using technologies like HTML, CSS, and JavaScript.',
+        title: 'Resume Screening App',
+        description: 'Resume Screening App With Python and Machine Learning Resume Screening App A Streamlit-based web application for screening resumes.This app allows users to upload a resume, which is then cleaned and analyzed to predict the job category based on pre-trained models.',
+        link: 'https://github.com/DhivijaMacharla/NLP'
+
       },
       {
-        title: 'Project 2',
-        description: 'Description of the second project. It involves using technologies like React and Node.js.',
+        title: 'SMS Spam Classifier',
+        description: 'SMS Spam Classifier.A spam classifier is a machine learning model that categorizes messages or emails as 'spam' or 'not spam' based on their content. It involves using Machine Learning Libraries and Frameworks.',
+        link: 'https://github.com/DhivijaMacharla/SMS_SPAM'
       },
       {
-        title: 'Project 3',
-        description: 'Description of the third project. It involves using technologies like Python and Django.',
+        title: 'TIC-TAC-TOE',
+        description: 'TIC-TAC-TOE. A simple implementation of the classic Tic-Tac-Toe game using Python.',
+        link: 'https://github.com/DhivijaMacharla/TIC-TAC-TOE'
       }
     ];
   
