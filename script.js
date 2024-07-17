@@ -3,17 +3,12 @@ document.addEventListener('DOMContentLoaded', () => {
   document.getElementById('contact-form').addEventListener('submit', validateForm);
 });
 
-function scrollToSection(sectionId) {
-  document.getElementById(sectionId).scrollIntoView({ behavior: 'smooth' });
-}
-
 function loadProjects() {
   const projects = [
     {
       title: 'Resume Screening App',
       description: 'Resume Screening App With Python and Machine Learning Resume Screening App A Streamlit-based web application for screening resumes.This app allows users to upload a resume, which is then cleaned and analyzed to predict the job category based on pre-trained models.',
       link: 'https://github.com/DhivijaMacharla/NLP'
-
     },
     {
       title: 'SMS Spam Classifier',
@@ -34,6 +29,7 @@ function loadProjects() {
     projectElement.innerHTML = `
       <h3 class="text-xl font-bold mb-2">${project.title}</h3>
       <p class="text-gray-700">${project.description}</p>
+      <a href="${project.link}" target="_blank" class="text-blue-500 hover:underline">View Project</a>
     `;
     projectsContainer.appendChild(projectElement);
   });
